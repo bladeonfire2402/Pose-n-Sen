@@ -37,5 +37,9 @@ export const PhotoBoothScreenWrapper = styled.div`
     .photo-booth .filters{
       flex-direction: row !important;
     }
+
+    .photo-booth .countdown{
+      margin-top: 20px;
+    }
   }
 `;

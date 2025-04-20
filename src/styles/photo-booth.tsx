@@ -951,9 +951,9 @@ export const styleBooth = css`
 
     .countdown {
       position: absolute;
-      top: 20%;
+      top: 25%;
       left: 50%;
-      transform: translate(-50%, -50%);
+      transform: translateY(-50%);
       z-index: 100;
     }
 
@@ -988,6 +988,7 @@ export const styleBooth = css`
       width: 100%;
       margin: 10px 0;
       padding: 0 5px;
+      height: 65px;
     }
 
     .side-preview {
@@ -1350,11 +1351,12 @@ export const styleBooth = css`
   /* Animations */
   @keyframes pop {
     0% {
-      transform: scale(1);
+      transform: scale(1) translateX(-50%);
       opacity: 1;
     }
     100% {
-      transform: scale(1.2);
+
+      transform: scale(1.2) translateX(-50%);
       opacity: 0.8;
     }
   }

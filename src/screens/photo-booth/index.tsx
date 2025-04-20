@@ -529,7 +529,7 @@ const PhotoBoothScreen = () => {
         </div>
         */}
         <h1 className={`text-4xl font-bold mb-4 }`}>Camera</h1>
-        {countdown !== null && <h2 className="countdown animate">{countdown}</h2>}
+        {countdown !== null && <h2 className="countdown animate text-center">{countdown}</h2>}
 
         {mode === "capture" && (
           <div className="photo-container ">
