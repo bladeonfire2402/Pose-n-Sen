@@ -599,7 +599,7 @@ export const styleBooth = css`
   /* test */
 
   .welcome-container h1 {
-    margin-bottom: 80px;
+    margin-bottom: 40px;
     font-size: 3rem;
     color: black;
     //margin-bottom: 1rem;
